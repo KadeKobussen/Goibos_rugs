@@ -19,7 +19,7 @@ a{
 }
 
 a:hover{
-  color:red
+  color:#F4B942
 }
 
 .grid-container{
@@ -100,7 +100,7 @@ footer{
   line-height: 2.2rem;
 }
 
-.product-brand{
+.product-creator{
   font-size:1.2rem;
   color:#808080;
 }
