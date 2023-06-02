@@ -47,4 +47,11 @@ brand a{
   color: #D9FFF5;
   font-size: 3rem;
 }
+footer{
+  background-color: #218380;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #D9FFF5;
+}
 
