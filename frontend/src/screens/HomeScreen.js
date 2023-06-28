@@ -6,7 +6,7 @@ const HomeScreen = {
     return `
     <ul class="products">
       ${products.map(
-        (product) => `
+      (product) => `
       <li>
         <div class="product">
           <a href="/#/product/${product._id}">
@@ -25,8 +25,8 @@ const HomeScreen = {
           </div>
         </div>
       </li>
-      `)}
-    `
+      `).join('\n')}
+    `;
   }
-}
+};
 export default HomeScreen;
